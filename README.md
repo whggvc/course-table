@@ -8,7 +8,7 @@
 | 图标 | 功能名称 | 核心优势 |
 |------|----------|----------|
 | 📝 **信息增强** | 课程数据智能优化 | 自动提取并美化「教室、教师、日期、周次」，教室编号简化（如 `藏龙岛1教J101` → `1-101`，`综A203` → `综203`） |
-| 🎨 **样式自定义** | 全维度可视化调整 | 支持8项核心样式配置（字体大小、上下间距），输入数值**实时预览效果**，无需反复刷新 |
+| 🎨 **样式自定义** | 全维度可视化调整 | 支持8项核心样式配置（字体大小、上下间距），输入数值**刷新后可看到效果**，无需反复刷新 |
 | 🔄 **智能监测** | 数据变化自动响应 | 周次更新时自动刷新所有课程，课程数据未变则跳过重复渲染，避免性能浪费，但目前是实时更新 |
 | 📱 **响应式适配** | 多设备无缝切换 | 自动识别手机/电脑屏幕，模态框、课表布局智能调整，手机端也能清晰操作 |
 | 💾 **本地持久化** | 设置永不丢失 | 自定义样式保存到浏览器本地（localStorage），关闭页面/刷新后依然生效 |
@@ -17,9 +17,9 @@
 ## 📥 前置准备 & 安装步骤  
 ### 1. 安装油猴插件（Tampermonkey）  
 脚本依赖油猴插件运行，先根据你的浏览器安装对应版本：  
-- **Chrome/Edge**：[Chrome 应用商店](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)（需科学上网）｜[Edge 应用商店](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)（国内可直接安装）  
+- **Chrome/Edge**：[Chrome 应用商店](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)（需要良好网络环境）｜[Edge 应用商店](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)（国内可直接安装）  
 - **Firefox**：[Firefox 附加组件](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey/)  
-- **手机端**：推荐用「Alook浏览器」或「Kiwi浏览器」，在扩展商店搜索安装 Tampermonkey  
+- **手机端**：推荐用「via浏览器」或「x浏览器」，在扩展商店搜索安装 Tampermonkey  
 
 ![油猴插件安装示意图预览链接](https://placeholder.com/tampermonkey-install)  
 *（提示：实际截图可能不同，界面或有差异）*
