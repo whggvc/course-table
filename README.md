@@ -28,7 +28,7 @@
 ### 2. 导入脚本  
 1. 点击浏览器右上角的「油猴图标」→ 选择「创建新脚本」  
    ![创建新脚本](https://placeholder.com/tampermonkey-new-script)  
-2. 删除编辑器中默认的所有代码，将本文开头的**完整脚本代码**复制粘贴进去  
+2. 删除编辑器中默认的所有代码，将本文开头的**class.js完整脚本代码**复制粘贴进去  
 3. 按下 `Ctrl+S`（或点击编辑器顶部「文件」→「保存」），脚本自动启用  
    ![保存脚本](https://placeholder.com/tampermonkey-save-script)  
 
